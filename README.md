@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution](https://github.com/LettyMoila/sunnyside-agency-landing-page)
+- Live Site URL: [live site](https://lettymoila.github.io/sunnyside-agency-landing-page/)
 
 ## My process
 I firstly completed the design with HTML then applied CSS to make my design more appealing. To make it responsive; i have made use of JS. Since i struggled to use CSS grid, i used article for the main body and it turned out perfectly fine. 
