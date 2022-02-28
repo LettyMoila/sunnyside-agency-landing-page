@@ -65,7 +65,7 @@ It actually overpowers HTML
 ```
 
 ```js
-creating validation functions using if-else statements
+creating validation functions using if-else statements in javascript
 ```
 ```See hover states for all interactive elements on the page
 Triggered when users place the cursor on responsive tags
@@ -87,8 +87,8 @@ Add more responsive pages.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@moila](https://www.frontendmentor.io/profile/LettyMoila)
+- Website - [Letty Moila](https://lettymoila.github.io/sunnyside-agency-landing-page/)
+- Frontend Mentor - [@Moila](https://www.frontendmentor.io/profile/LettyMoila)
 - Twitter - [@LettyMoila](https://www.twitter.com/Letty_Moila)
 
 ## Acknowledgments
