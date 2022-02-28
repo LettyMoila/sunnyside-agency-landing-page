@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  
+  <title>Contact Us</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>
+  <header>
+
+  </header>
+
+  <header style="background-color: darkcyan;">
+    <table>
+        <tr>
+            <td>
+                <h1>Contact us</h1>
+            </td>
+
+            <td align="right">
+               <img width="50px" src="https://cdn.pixabay.com/photo/2016/03/22/04/23/map-1272165__340.png" alt=""> Polokwane, Limpopo
+            </td>
+        </tr>
+    </table>
+ </header>
+
+ <main>
+     <form  action="https://formspree.io/f/mnqwdwlg"
+     method="POST">
+
+     <div>
+     
+         <label for="name">First name
+         </label>
+     </div>
+     <div>
+         <input placeholder="input name" type="text" name="namebox" id="name">
+     </div>
+         
+     <div>
+         <label for="surname">Surname
+         </label>
+     </div>
+     <div>
+         <input placeholder="input surname" type="text" id="surname">
+     </div>
+            
+     <div>
+         <label for="cell">Cellphone
+         </label>
+     </div>
+     <div>
+         <input placeholder="input number" type="number" name="" id="cell" pattern="[0-9]{10}">
+     </div>
+             
+     <div>
+         <label for="email">Email
+         </label>
+     </div>
+     <div> 
+         <input placeholder="email address" type="email" name="useremail" id="email" oninput="validateEmail()">
+     </div>
+                
+     <div>
+         <label for="message">Your message
+         </label>
+     </div>
+     <div>
+         <textarea placeholder="type in your message.." id="message">
+         </textarea>
+     </div>
+
+             <p>Receive notification through?</p>
+
+             <span>
+                 <p>Email<input type="radio" name="email" id="emradio"></p>
+             </span>
+             <span>
+                 <p>Phone<input type="radio" name="Cellphone" id="celradio"></p>
+                 
+             </span>
+
+                    <button id="button" type="submit">Submit</button>
+     
+ </main>
+  
+  <footer style="background-color: darkcyan;">
+    <nav>
+      <a href="#"><img src="images/logo.svg" alt="Sunnyside’s logo"></a>
+      <ul>
+        <li><a  href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+    </nav>
+    
+    <ul style="padding-left: 5%;">
+      <li><a href="#"><img src="images/icon-facebook.svg" alt="facebook icon"></a></li>
+      <li><a href="#"><img src="images/icon-instagram.svg" alt="instagram icon"></a></li>
+      <li><a href="#"><img src="images/icon-twitter.svg" alt="twitter icon"></a></li>
+      <li><a href="#"><img src="images/icon-pinterest.svg" alt="pinterest icon"></a></li>
+    </ul>
+  </footer>
+
+
+  <div align="center">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Letty Moila</a>.
+  </div>
+  <script src="index.js"></script> <!-- association and access to js file -->
+</body>
+</html>
